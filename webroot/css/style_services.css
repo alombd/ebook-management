@@ -1,0 +1,70 @@
+/*
+Tutorial Name: Caption Hover Effects
+Author: Samuel Dalusung
+*/
+
+
+/* GENERAL STYLES
+-------------------------------------------------*/
+body {
+    background:#3498db
+}
+
+
+ul {
+    margin:20px auto;
+    width:30%;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin:0 10px;
+
+}
+
+nav {
+    margin:20px auto;
+    text-align:center
+}
+
+nav a {
+    display:inline-block;
+    text-align:center;
+    background:#3498db;
+    font-family:'Lato',sans-serif;
+    color:#fff;
+    font-weight:400;
+    padding:5px 26px;
+    margin-right:6px;
+    text-transform:uppercase;
+    border:2px solid #fff;
+    letter-spacing:1px;
+    text-decoration:none
+}
+
+nav a.active,nav a:hover {
+    background:#3498db;
+    color:#1a4c6e;
+    border:2px solid #1a4c6e
+}
+
+.left {
+    float:left
+}
+
+.right {
+    float:right
+}
+
+.center {
+    margin:50px auto;
+    display:block;
+    width:65%
+}
+
+@media screen and (max-width: 480px) {
+nav a {
+    margin-top:15px
+}
+}
